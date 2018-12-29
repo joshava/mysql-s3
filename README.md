@@ -10,7 +10,7 @@ Schedule backup MySQL database to S3 compatible storage.
 
 ## Usage
 
-```yaml
+```yml
 version: "3"
 
 services:
@@ -34,6 +34,7 @@ services:
       S3_REGION: sfo2
       S3_ENDPOINT: https://sfo2.digitaloceanspaces.com
       S3_PREFIX: db
+      PERIOD: "* 0 * * *"
 ```
 
 [docker]: https://hub.docker.com/r/joshava/mysql-s3
