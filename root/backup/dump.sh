@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+set -e
+set -o pipefail
 
 DATE=$(date +%Y%m%d_%H%M%S)
 DUMP="$MYSQL_DATABASE-$DATE.sql.gz"

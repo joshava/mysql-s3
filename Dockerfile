@@ -17,7 +17,7 @@ ENV S3_PREFIX ""
 ENV PERIOD "* 0 * * *"
 
 
-RUN apk add --no-cache mysql-client openssh-client && \
+RUN apk add --no-cache mysql-client openssh-client bash && \
     pip install awscli
 
 COPY root/ /
