@@ -15,6 +15,7 @@ ENV S3_ENDPOINT ""
 ENV S3_PREFIX ""
 
 ENV PERIOD "* 0 * * *"
+ENV RUN ""
 
 
 RUN apk add --no-cache mysql-client openssh-client bash && \

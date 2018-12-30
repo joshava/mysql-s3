@@ -35,6 +35,7 @@ services:
       S3_ENDPOINT: https://sfo2.digitaloceanspaces.com
       S3_PREFIX: db
       PERIOD: "* 0 * * *"
+      RUN: "true"
 ```
 
 [docker]: https://hub.docker.com/r/joshava/mysql-s3
