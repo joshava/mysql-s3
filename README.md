@@ -1,6 +1,7 @@
 # mysql-s3
 
 [![License][license_md]][license]
+[![Travis CI][travis_ci]][travis]
 [![Docker Pull][docker_pull]][docker]
 [![Docker Star][docker_star]][docker]
 [![Docker Size][docker_size]][docker]
@@ -45,3 +46,5 @@ services:
 [docker_layer]: https://img.shields.io/microbadger/layers/joshava/mysql-s3.svg
 [license]: https://github.com/joshava/mysql-s3/blob/master/LICENSE
 [license_md]: https://img.shields.io/github/license/joshava/mysql-s3.svg
+[travis]: https://travis-ci.org/joshava/mysql-s3
+[travis_ci]: https://img.shields.io/travis/joshava/mysql-s3.svg
